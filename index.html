@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="main.js"></script>
+    <title>Calculator</title>
+</head>
+<body>
+    <header><h1 class="title">Calculator for : Eltorretaz</h1></header>
+    <div class="contenedor">
+        <span id="elements"></span>
+        <div class="buttons">
+            <div class="num" id="num">
+                <button class="button" onclick="selection(1)">1</button>
+                <button class="button" onclick="selection(2)">2</button>
+                <button class="button" onclick="selection(3)">3</button>
+                <button class="button" onclick="selection(4)">4</button>
+                <button class="button" onclick="selection(5)">5</button>
+                <button class="button" onclick="selection(6)">6</button>
+                <button class="button" onclick="selection(7)">7</button>
+                <button class="button" onclick="selection(8)">8</button>
+                <button class="button" onclick="selection(9)">9</button>
+                <button class="button" onclick="selection(0)">0</button>
+            </div>
+            <div class="operators" id="operators">
+                <button class="sum" id="sum" onclick="selection(10)">+</button>
+                <button class="substraction" id="rest" onclick="selection(11)">-</button>
+                <button class="product" id="product" onclick="selection(12)">*</button>
+                <button class="divisor" id="divisor" onclick="selection(13)">/</button>
+                <button id="equit" onclick="result()">=</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -52,7 +52,7 @@ To get a local copy up and running follow these simple example steps.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Eltorretaz/Odin_recipes_Armando_26august23/issues).
+Feel free to check the [issues page](https://github.com/Eltorretaz/Calculator-javascript-Armando-28Oct23/issues).
 
 ## Show your support
 
