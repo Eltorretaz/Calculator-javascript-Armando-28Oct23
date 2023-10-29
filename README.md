@@ -4,7 +4,7 @@
 
 > One paragraph statement about the project.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./app_screenshot.jpg)
 
 Additional description about the project and its features.
 
@@ -16,7 +16,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://eltorretaz.github.io/Odin_recipes_Armando_26august23/)
+[Live Demo Link](https://eltorretaz.github.io/Calculator-javascript-Armando-28Oct23/)
 
 
 ## Getting Started
