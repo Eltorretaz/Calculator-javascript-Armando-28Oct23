@@ -5,7 +5,6 @@ let result = 0;
 let oneTerm = "";
 let secondTerm = "";
 let operator;
-let count = 0;
 
 const selectOperator = (select) => {
     if(oneTerm === ""){
@@ -44,7 +43,6 @@ const calc = (ok) => {
     oneTerm = result;
     operator = 0;
     ope.innerHTML = ("");
-    count += 1;
 }
 
 const writer = (num) => {
@@ -57,12 +55,7 @@ const writer = (num) => {
 const operatorResult = () => {
     secondTerm = draft;
     draft = "";
-    if(count === 0){
-        calc(operator);
-        count += 1;
-    }else{
-        panel.innerHTML = ("ERROR")
-    }
+    calc(operator);
 }
 
 const reset = () => {
